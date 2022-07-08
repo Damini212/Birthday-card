@@ -1,0 +1,86 @@
+body {
+  font-family: 'Happy Monkey', cursive;
+  text-align: center;
+  background: linear-gradient(#a2d2ff, pink);
+  color:#ffffff;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#image{
+  border-radius: 100%;
+  width:300px;
+  border: 5px solid pink;
+}
+
+h1,h2, h3, h4 {
+  text-shadow: 0px 0px 5px black;
+
+}
+
+#bday-date{
+  background: pink;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+
+}
+
+#bday-age{
+  background: pink;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 50px 0 10px 0;
+
+}
+
+#gift-title{
+  margin: 50px;
+  margin-bottom: 0px;
+}
+
+
+
+.gift-image{
+  margin: 0 auto;
+  background-image: url("pink-gift.webp");
+  width: 200px;
+  height: 200px;
+  border: 10px solid pink;
+  border-radius: 10px;
+  background-size: cover;
+
+}
+
+#gift-img-happy:hover{
+ background-image: url("sing.gif");
+}
+
+
+
+#gift-img-playing:hover{
+  background-image: url("happy-pig.gif");
+}
+
+#gift-img-splash:hover{
+  background-image: url("splash.gif");
+}
+
+#gift-img-kiss:hover{
+  background-image: url("kiss.gif");
+}
+
+p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-style: italic;
+  color:white;
+}
+
+a{
+  color: white;
+}
