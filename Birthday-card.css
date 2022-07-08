@@ -58,20 +58,24 @@ h1,h2, h3, h4 {
 
 #gift-img-happy:hover, #gift-img-happy:active{
  background-image: url("sing.gif");
+  user-select: none;
 }
 
 
 
 #gift-img-playing:hover, #gift-img-playing:active{
   background-image: url("happy-pig.gif");
+  user-select: none;
 }
 
 #gift-img-splash:hover, #gift-img-splash:active{
   background-image: url("splash.gif");
+  user-select: none;
 }
 
 #gift-img-kiss:hover, #gift-img-kiss:active{
   background-image: url("kiss.gif");
+  user-select: none;
 }
 
 p {
